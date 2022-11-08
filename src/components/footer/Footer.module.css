@@ -1,0 +1,30 @@
+.footer {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    width: 100%;
+    max-width: 102.5rem;
+    margin-top: 3rem;
+}
+
+.lists {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    align-self: center;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    margin-bottom: 1rem;
+    color: #003580;
+    cursor: pointer;
+}

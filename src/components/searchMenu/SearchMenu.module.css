@@ -1,0 +1,84 @@
+
+.search {
+    flex: 1;
+    background-color: #febb02;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: sticky;
+    top: 1rem;
+    height: max-content;
+}
+
+.title {
+    font-size: 2rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.searchItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.searchItem label {
+    font-size: 1.2rem;
+}
+
+.searchItem input {
+    height: 3rem;
+    border: none;
+    padding: 0.5rem;
+}
+
+.searchItem > span {
+    height: 3rem;
+    padding: 0.5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.options {
+    padding: 1rem;
+}
+
+.searchOptionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #555;
+    font-size: 1.4rem;
+}
+
+.optionInput {
+    width: 8rem;
+}
+
+.searchButton {
+    display: block;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    width: 80%;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.result {
+    flex: 3;
+}
+
+.icon {
+    color: lightgray;
+}
+
+.searchText {
+    cursor: pointer;
+}

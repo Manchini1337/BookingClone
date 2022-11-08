@@ -1,0 +1,32 @@
+.email {
+    width: 100%;
+    margin-top: 5rem;
+    background-color: #003580;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+    font-size: 1.6rem;
+}
+
+.input {
+    width: 30rem;
+    height: 5rem;
+    padding: 1rem;
+    border: none;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+.button {
+    height: 5rem;
+    width: 10rem;
+    background-color: #0071c2;
+    color: white;
+    font-size: 500;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+.searchItem {
+    border: 1px solid lightgray;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 2;
+}
+
+.title {
+    font-size: 2rem;
+    color: #0071c2;
+}
+
+.distance, .taxi, .subtitle, .features, .cancel, .cancelSubtitle {
+    font-size: 1.2rem;
+}
+
+.taxi {
+    background-color: #008009;
+    color: white;
+    width: max-content;
+    padding: 3px;
+    border-radius: 0.5rem;
+}
+
+.subtitle {
+    font-weight: 500;
+}
+
+.cancel {
+    color: #008009;
+    font-weight: 500;
+}
+
+.cancelSubtitle {
+    color: #008009;
+}
+
+.details {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating > span {
+    font-weight: 500;
+}
+
+.rating > button {
+    background-color: #003580;
+    color: white;
+    padding: 0.5rem;
+    font-weight: 500;
+    border: none;
+}
+
+.texts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+.price {
+    font-size: 2.4rem;
+}
+
+.button {
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    padding: 1rem 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}

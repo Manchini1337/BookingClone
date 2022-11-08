@@ -1,0 +1,67 @@
+.header {
+    width: 100%;
+    color: white;
+    font-size: 1.6rem;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logoContainer {
+    width: 100%;
+    max-width: 102.5rem;
+    color: white;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 3.2rem;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.button {
+    margin-left: 2rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #003580;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.logout {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.logout span {
+    border-bottom: 2px solid transparent;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.logout span:hover {
+    border-bottom: 2px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.logoutIcon {
+    cursor: pointer;
+    font-size: 2rem;
+}

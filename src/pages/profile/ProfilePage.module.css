@@ -1,0 +1,150 @@
+.container {
+    width: 100%;
+    max-width: 160rem;
+    padding: 2rem;
+    margin: 5rem auto;
+}
+
+.card {
+    width: 100%;
+    margin: 4rem auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    justify-content: center;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+
+.title {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+
+.cardItem {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardItemImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.detailsTitle {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.detailItem {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.detailItemKey {
+    font-weight: bold;
+    color: gray;
+    margin-right: 0.5rem;
+}
+
+.detailItemValue {
+    font-weight: 300;
+}
+
+.formWrapper {
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.left img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 4rem;
+}
+
+.right {
+    flex: 2;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem; 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.formGroup {
+    width: 80%;
+}
+
+.formLabel {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.formInput {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.formFile {
+    width: 20%;
+    align-self: center;
+}
+
+.formButton {
+    display: block;
+    width: 15rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #003580;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 1rem auto 0;
+  }
+
+  .icon {
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    width: 100%;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    margin: 4rem auto;
+    padding: 2rem;
+    
+}
+

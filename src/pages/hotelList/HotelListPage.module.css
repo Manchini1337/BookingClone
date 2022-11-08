@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 102.5rem;
+    display: flex;
+    gap: 2rem;
+}
