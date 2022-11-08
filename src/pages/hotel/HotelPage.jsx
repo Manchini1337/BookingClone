@@ -22,7 +22,7 @@ const HotelPage = () => {
   return (
     <>
       <MainHeader />
-      <div className={cclasses.container}>
+      <div className={classes.container}>
         {open && (
           <SlideGallery
             setOpen={setOpen}
