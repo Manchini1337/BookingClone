@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import api from '../../utils/api/axios.interceptor';
 import { useSelector } from 'react-redux';
-import useFetch from '../../../../BookingAdmin/src/hooks/useFetch';
+import useFetch from '../../hooks/useFetch';
 import Orderstable from '../../components/ordersTable/OrdersTable';
 
 const ProfilePage = () => {
