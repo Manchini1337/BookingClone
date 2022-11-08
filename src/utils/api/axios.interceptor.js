@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:8080/api/',
+  baseURL: 'https://manchini1337bookingapi.herokuapp.com/api/',
   withCredentials: true,
 });
