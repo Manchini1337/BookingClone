@@ -26,7 +26,7 @@ function App() {
 
   const ProtectedRoute = ({ children }) => {
     if (!user._id) {
-      return <Navigate to='/BookingClone//login' />;
+      return <Navigate to='/BookingClone/login' />;
     }
     return children;
   };

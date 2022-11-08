@@ -27,7 +27,7 @@ const SearchItem = ({ item }) => {
         <div className={classes.texts}>
           <span className={classes.price}>${item.cheapestPrice}</span>
           <span className={classes.taxi}>Includes taxes and fees</span>
-          <Link to={`/hotel/${item._id}`}>
+          <Link to={`/BookingClone/hotel/${item._id}`}>
             <button className={classes.button}>See availability</button>
           </Link>
         </div>

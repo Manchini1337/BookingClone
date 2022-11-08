@@ -52,7 +52,7 @@ const SearchBar = () => {
     dispatch(
       searchActions.setSearchData({ destination, dates: stringDates, guests })
     );
-    navigate('/hotels');
+    navigate('/BookingClone/hotels');
   };
 
   return (

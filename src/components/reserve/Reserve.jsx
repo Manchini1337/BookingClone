@@ -51,7 +51,7 @@ const Reserve = ({ setOpen, hotelId, amount }) => {
         amount: amount.toString(),
       });
       setOpen(false);
-      navigate('/');
+      navigate('/BookingClone/');
     } catch (err) {
       console.log(err);
     }

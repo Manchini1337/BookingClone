@@ -22,7 +22,7 @@ const LoginForm = () => {
       const response = await api.post('auth/login', formData);
       dispatch(userActions.setUserData(response.data.details));
       localStorage.setItem('user', JSON.stringify(response.data.details));
-      navigate('/');
+      navigate('/BookingClone/');
     } catch (err) {
       setStatus(err.response.data.message);
       setFormData({
@@ -32,7 +32,7 @@ const LoginForm = () => {
     }
   };
 
-  if (user._id) return <Navigate to='/' replace />;
+  if (user._id) return <Navigate to='/BookingClone/' replace />;
 
   return (
     <div className={classes.container}>

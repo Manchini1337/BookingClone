@@ -22,7 +22,10 @@ const MainHeader = () => {
   return (
     <header className={classes.header}>
       <div className={classes.logoContainer}>
-        <span onClick={() => navigate('/')} className={classes.logo}>
+        <span
+          onClick={() => navigate('/BookingClone/')}
+          className={classes.logo}
+        >
           Booking
         </span>
         {user._id ? (
@@ -31,15 +34,17 @@ const MainHeader = () => {
               src={user.img || 'https://i.ibb.co/MBtjqXQ/no-avatar.gif'}
               alt='avatar'
               className={classes.avatar}
-              onClick={() => navigate('/profile')}
+              onClick={() => navigate('/BookingClone/profile')}
             />
-            <span onClick={() => navigate('/profile')}>{user.username}</span>
+            <span onClick={() => navigate('/BookingClone/profile')}>
+              {user.username}
+            </span>
             <FontAwesomeIcon
               onClick={() => {
                 localStorage.removeItem('user');
                 dispatch(userActions.resetUserData());
                 api.post('auth/logout');
-                navigate('/');
+                navigate('/BookingClone/');
               }}
               icon={faRightFromBracket}
               className={classes.logoutIcon}
@@ -48,13 +53,13 @@ const MainHeader = () => {
         ) : (
           <div className={classes.navItems}>
             <button
-              onClick={() => navigate('/register')}
+              onClick={() => navigate('/BookingClone/register')}
               className={classes.button}
             >
               Register
             </button>
             <button
-              onClick={() => navigate('/login')}
+              onClick={() => navigate('/BookingClone/login')}
               className={classes.button}
             >
               Login

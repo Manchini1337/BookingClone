@@ -42,7 +42,7 @@ const RegisterForm = () => {
       };
 
       await api.post('auth/register', newUser);
-      navigate('/login');
+      navigate('/BookingClone/login');
     } catch (err) {
       console.log(err);
       if (err.response.data.error.message) {
@@ -51,7 +51,7 @@ const RegisterForm = () => {
     }
   };
 
-  if (user._id) return <Navigate to='/' replace />;
+  if (user._id) return <Navigate to='/BookingClone/' replace />;
   return (
     <div className={classes.container}>
       <form onSubmit={handleSubmit} className={classes.form}>

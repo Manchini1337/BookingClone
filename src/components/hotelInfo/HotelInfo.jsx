@@ -22,7 +22,7 @@ const HotelInfo = ({ handleOpen, data, loading, id }) => {
     if (user._id) {
       setOpenModal(true);
     } else {
-      navigate('/login');
+      navigate('/BookingClone/login');
     }
   };
 
