@@ -26,7 +26,7 @@ function App() {
 
   const ProtectedRoute = ({ children }) => {
     if (!user._id) {
-      return <Navigate to='/login' />;
+      return <Navigate to='/BookingClone//login' />;
     }
     return children;
   };
@@ -34,13 +34,13 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/hotels' element={<HotelListPage />} />
-        <Route path='/hotel/:id' element={<HotelPage />} />
-        <Route path='/login' element={<LoginPage />} />
-        <Route path='/register' element={<RegisterPage />} />
+        <Route path='/BookingClone/' element={<HomePage />} />
+        <Route path='/BookingClone/hotels' element={<HotelListPage />} />
+        <Route path='/BookingClone/hotel/:id' element={<HotelPage />} />
+        <Route path='/BookingClone/login' element={<LoginPage />} />
+        <Route path='/BookingClone/register' element={<RegisterPage />} />
         <Route
-          path='/profile'
+          path='/BookingClone/profile'
           element={
             <ProtectedRoute>
               <ProfilePage />
