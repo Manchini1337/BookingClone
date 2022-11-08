@@ -8,7 +8,7 @@ import Footer from '../../components/footer/Footer';
 import useFetch from '../../hooks/useFetch';
 
 const HotelPage = () => {
-  const id = location.pathname.split('/')[2];
+  const id = location.pathname.split('/')[3];
   const { data, loading } = useFetch(`hotels/find/${id}`);
 
   const [slideNumber, setSlideNumber] = useState(0);
